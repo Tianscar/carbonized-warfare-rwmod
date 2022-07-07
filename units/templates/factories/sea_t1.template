@@ -2,5 +2,5 @@
 name: setRally
 pos:  0.1
 [canBuild_t1]
-name: buildership, hovercraft, gunBoat, lightSubmarine, attackSubmarine, missileBoat, torpedoBoat, frigate
+name: buildership, hovercraft, gunBoat, lightSubmarine, attackSubmarine, missileBoat, torpedoBoat, frigate, robotCrab
 pos:  1

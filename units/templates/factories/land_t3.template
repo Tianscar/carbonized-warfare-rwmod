@@ -1,5 +1,5 @@
 [canBuild_t3]
-name: zealotTank, plasmaArtillery, plasmaFlameTank, hammerTank, prismTank, alertHoverTank, heavyPlasmaTank, beamonTank, heavyMissileTank
+name: zealotTank, plasmaArtillery, plasmaFlameTank, prismTank, alertHoverTank, heavyPlasmaTank, beamonTank, heavyMissileTank
 pos:  3
 [canBuild_t3_experimental]
 name: generalArtillery, silverMetalTank
