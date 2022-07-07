@@ -1,0 +1,81 @@
+[core]
+class: CustomUnitMetadata
+radius: 38
+isBio: false
+softCollisionOnAll: 0
+[graphics]
+total_frames: 1
+image:        ROOT:units/shared/fortress_base.png
+image_wreak:  ROOT:units/shared/fortress_dead.png
+image_turret: NONE
+image_shadow: SHADOW:ROOT:units/shared/fortress_base.png
+shadowOffsetX:1
+shadowOffsetY:1
+teamColorsOnTurret:true
+lock_body_rotation_with_main_turret: false
+[attack]
+turretRotateWithBody: true
+[turret_1]
+x: 0
+y: 0
+idleDir:0
+turnSpeed: 2.9
+turnSpeedAcceleration: 0.07
+canShoot: false
+[leg_1]
+x: -32
+y: 0
+attach_x: -5
+attach_y: 0
+moveSpeed: 2.9
+moveWarmUp:0.1s
+rotateSpeed: 7
+heightSpeed: 0.7
+resetAngle:20
+image_leg:  ROOT:units/shared/leg.png
+image_foot: ROOT:units/shared/foot_verysmall.png
+holdDisMin: 5
+holdDisMax: 19
+favourOppositeSideNeighbours: true
+estimatingPositionMultiplier:0.7
+[leg_2]
+x: 32
+y: 0
+attach_x: 5
+attach_y: 0
+copyFrom: 1
+[leg_3]
+x: -28
+y: 24
+attach_x: -5
+attach_y: 10
+copyFrom: 1
+[leg_4]
+x: 28
+y: 24
+attach_x: 5
+attach_y: 10
+copyFrom: 1
+[leg_5]
+x: -28
+y: -24
+attach_x: -5
+attach_y: -10
+copyFrom: 1
+[leg_6]
+x: 28
+y: -24
+attach_x: 5
+attach_y: -10
+copyFrom: 1
+[movement]
+movementType: OVER_CLIFF
+moveSpeed: 0.4
+moveAccelerationSpeed: 0.05
+moveDecelerationSpeed: 0.07
+targetHeight:3
+maxTurnSpeed: 0.7
+turnAcceleration: 0.3
+moveSlidingMode :false
+moveIgnoringBody:false
+reverseSpeedPercentage:1

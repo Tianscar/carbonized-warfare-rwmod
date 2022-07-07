@@ -1,0 +1,8 @@
+[effect_areaShock]
+image: ROOT:units/shared/area_shock.png
+scaleFrom: 0.4
+scaleTo: 1
+life: 30
+dirOffset:1440
+dirSpeed:8
+#scaleTo is radius / 22

@@ -1,6 +1,0 @@
-[canBuild_setRally]
-name: setRally
-pos:  0.1
-[canBuild_t1]
-name: builderMechank, originalTank, mechank, originalArtillery, lightPlasmaMechank, megaTank, robotCrab
-pos:  1

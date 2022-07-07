@@ -1,0 +1,6 @@
+[effect_shockwave]
+stripIndex:shockwave
+scaleFrom: 0.4
+scaleTo: 1
+life: 30
+#scaleTo is radius / 25

@@ -1,5 +1,0 @@
-[effect_liquidExplodeSound]
-priority: critical
-image:SHARED:blank.png
-life: 0
-alsoPlaySound:ROOT:sounds/liquid_explode.ogg

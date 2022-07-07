@@ -1,9 +1,0 @@
-[placementRule_techNuclear]
-searchTags: techNuclear
-searchDistance: 2147483647
-searchTeam: own
-excludeIncompleteBuildings: false
-excludeNonBuildings: false
-minCount: 1
-cannotPlaceMessage: Needs nuclear tech
-cannotPlaceMessage_zh: 需要核武科技

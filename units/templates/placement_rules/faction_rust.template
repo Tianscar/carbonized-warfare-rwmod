@@ -1,0 +1,9 @@
+[placementRule_factionRust]
+searchTags: faction
+searchDistance: 2147483647
+searchTeam: own
+excludeIncompleteBuildings: false
+excludeNonBuildings: false
+maxCount: 0
+cannotPlaceMessage: Faction discrepancy
+cannotPlaceMessage_zh: 阵营不符

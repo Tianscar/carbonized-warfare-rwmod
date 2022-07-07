@@ -1,5 +1,0 @@
-[effect_missileHitSound]
-priority: critical
-image:SHARED:blank.png
-life: 0
-alsoPlaySound:missile_hit

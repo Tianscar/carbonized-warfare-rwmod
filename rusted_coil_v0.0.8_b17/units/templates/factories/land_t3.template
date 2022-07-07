@@ -1,9 +1,0 @@
-[canBuild_t3]
-name: zealotTank, plasmaArtillery, plasmaFlameTank, hammerTank, prismTank, alertHoverTank, heavyPlasmaTank, beamonTank, heavyMissileTank
-pos:  3
-[canBuild_t3_experimental]
-name: generalArtillery, silverMetalTank
-pos:  3.1
-isLocked: if not self.hasUnitInTeam(withTag='techExperimental')
-isLockedMessage: Needs experimental tech
-isLockedMessage_zh: 需要实验科技

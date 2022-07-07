@@ -1,0 +1,19 @@
+[effect_beamExplosion]
+scaleTo:0.5
+scaleFrom:0.5
+priority:verylow
+image:ROOT:units/shared/beam_explode.png
+fadeOut: true
+attachedToUnit: true
+color:#FF0000
+alpha: 0.3
+life:30
+dirOffsetRandom:360
+[effect_beamCharge]
+priority:critical
+image:SHARED:lighting_charge.png
+scaleTo:0.7
+scaleFrom:0.7
+alpha:0.3
+life:30
+attachedToUnit:true

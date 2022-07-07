@@ -1,6 +1,0 @@
-[effect_shockwaveLarge]
-stripIndex:shockwave_large
-scaleFrom: 0.2
-scaleTo: 2
-life: 45
-#scaleTo is radius / 52

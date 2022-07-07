@@ -1,0 +1,41 @@
+[core]
+class:CustomUnitMetadata
+price: 0
+maxHp: 1
+mass: 0
+techLevel: 1
+buildSpeed: 1
+softCollisionOnAll: 24
+isBio: false
+radius:1
+showInEditor: false
+fogOfWarSightRange:0
+isUnrepairableUnit: true
+isUnselectable: true
+canNotBeDirectlyAttacked: true
+canNotBeDamaged: true
+disableAllUnitCollisions: true
+explodeOnDeath: false
+hideScorchMark: true
+showOnMinimap:false
+canNotBeGivenOrdersByPlayer:true
+[graphics]
+total_frames: 1
+image:          SHARED:blank.png
+image_wreak:  NONE
+image_turret: NONE
+image_shadow: NONE
+icon_zoomed_out_neverShow: true
+[attack]
+canAttack: false
+canAttackFlyingUnits: false
+canAttackLandUnits:   false
+canAttackUnderwaterUnits: false
+turretSize: 0
+turretTurnSpeed: 0
+maxAttackRange: 0
+shootDelay: 0
+[movement]
+movementType: NONE
+moveSpeed:0
+targetHeight:-2
