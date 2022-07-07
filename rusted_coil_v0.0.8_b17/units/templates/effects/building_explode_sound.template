@@ -1,0 +1,5 @@
+[effect_buildingExplodeSound]
+priority: critical
+image:SHARED:blank.png
+life: 0
+alsoPlaySound:buiding_explode:4

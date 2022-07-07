@@ -1,0 +1,8 @@
+[placementRule_singleton]
+searchDistance: 2147483647
+searchTeam: own
+excludeIncompleteBuildings: false
+excludeNonBuildings: false
+maxCount: 0
+cannotPlaceMessage: Can only build at most one
+cannotPlaceMessage_zh: 只能建造一个

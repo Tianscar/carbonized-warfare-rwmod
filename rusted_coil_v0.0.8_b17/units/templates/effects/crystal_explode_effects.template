@@ -1,0 +1,16 @@
+[effect_crystalExplodeSound]
+priority: critical
+image:SHARED:blank.png
+life: 0
+alsoPlaySound:ROOT:sounds/crystal_explode.ogg
+[effect_crystalExplodeBit]
+attachedToUnit: false
+life: 700
+physics: true
+xSpeedRelativeRandom: 1.5
+ySpeedRelativeRandom: 1.5
+dirOffsetRandom: 360
+hSpeed: 2
+priority: critical
+total_frames: 6
+frameIndexRandom: 5

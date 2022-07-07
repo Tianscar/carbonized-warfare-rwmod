@@ -1,0 +1,9 @@
+[canBuild_setRally]
+name: setRally
+pos:  0.1
+[canBuild_experimental]
+name: experimentalTank, beamoTank2, titanTank, experimentalHoverTank, rangerMissileAirship, thunderbirdJet, molaMolaDropship, mantaRayBomber, combatSpider
+pos:  1
+isLocked: if not self.hasUnitInTeam(withTag='techExperimental')
+isLockedMessage: Needs experimental tech
+isLockedMessage_zh: 需要实验科技
