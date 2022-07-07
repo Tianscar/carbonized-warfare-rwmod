@@ -1,0 +1,5 @@
+[effect_fireBombExplodeSound]
+priority: critical
+image:SHARED:blank.png
+life: 0
+alsoPlaySound:ROOT:sounds/fire_bomb_explode.ogg:1
