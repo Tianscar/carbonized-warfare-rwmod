@@ -10,7 +10,7 @@ alpha: 1.7
 [effect_laserExplosion]
 scaleTo:1
 scaleFrom:0.5
-image: ROOT:units/shared/laser_explode.png
+image: ROOT:units/rust/shared/laser_explode.png
 life: 40
 fadeOut: true
 attachedToUnit: true

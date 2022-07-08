@@ -14,12 +14,12 @@ isBuilding: true
 isBio: false
 [graphics]
 total_frames: 1
-image:        ROOT:units/shared/turret_base.png
-image_wreak:  ROOT:units/shared/turret_base_dead.png
+image:        ROOT:units/rust/shared/turret_base.png
+image_wreak:  ROOT:units/rust/shared/turret_base_dead.png
 image_shadow: NONE
 shadowOffsetX:1
 shadowOffsetY:1
-icon_zoomed_out: ROOT:units/shared/unit_icon_building_turret.png
+icon_zoomed_out: ROOT:units/rust/shared/unit_icon_building_turret.png
 [attack]
 canAttack: true
 canAttackFlyingUnits: false

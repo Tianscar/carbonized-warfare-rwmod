@@ -10,7 +10,7 @@ dirOffsetRandom:180
 fadeInTime: 0
 fadeOut: false
 attachedToUnit: false
-image: ROOT:units/shared/plasma_explode.png
+image: ROOT:units/rust/shared/plasma_explode.png
 total_frames: 9
 animateFrameStart: 0
 animateFrameStartRandomAdd: 1

@@ -23,7 +23,7 @@ body_1.0s: {frame:3}
 pingPong:true
 [graphics]
 total_frames: 4
-image_back:   ROOT:units/shared/extractor_back.png
+image_back:   ROOT:units/rust/shared/extractor_back.png
 image_back_always_use_full_image: true
 [attack]
 canAttack: false

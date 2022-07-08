@@ -5,10 +5,10 @@ isBio: false
 softCollisionOnAll: 0
 [graphics]
 total_frames: 1
-image:        ROOT:units/shared/bunker_base.png
-image_wreak:  ROOT:units/shared/bunker_dead.png
+image:        ROOT:units/rust/shared/bunker_base.png
+image_wreak:  ROOT:units/rust/shared/bunker_dead.png
 image_turret: NONE
-image_shadow: SHADOW:ROOT:units/shared/bunker_base.png
+image_shadow: SHADOW:ROOT:units/rust/shared/bunker_base.png
 shadowOffsetX:1
 shadowOffsetY:1
 teamColorsOnTurret:true
@@ -32,8 +32,8 @@ moveWarmUp:0.1s
 rotateSpeed: 7
 heightSpeed: 0.3
 resetAngle:25
-image_leg:  ROOT:units/shared/leg.png
-image_foot: ROOT:units/shared/foot_verysmall.png
+image_leg:  ROOT:units/rust/shared/leg.png
+image_foot: ROOT:units/rust/shared/foot_verysmall.png
 holdDisMin: 5
 holdDisMax: 19
 favourOppositeSideNeighbours: true

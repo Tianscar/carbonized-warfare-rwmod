@@ -2,7 +2,7 @@
 scaleTo:0.5
 scaleFrom:0.5
 priority:verylow
-image:ROOT:units/shared/beam_explode.png
+image:ROOT:units/rust/shared/beam_explode.png
 fadeOut: true
 attachedToUnit: true
 color:#FF0000

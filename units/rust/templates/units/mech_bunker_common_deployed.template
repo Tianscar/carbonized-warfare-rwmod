@@ -9,7 +9,7 @@ footprint: -1,-1,1,1
 constructionFootprint:-1,-1,1,1
 buildingSelectionOffset: -14
 [graphics]
-icon_zoomed_out: ROOT:units/shared/unit_icon_building_turret.png
+icon_zoomed_out: ROOT:units/rust/shared/unit_icon_building_turret.png
 [turret_1]
 x: 0
 y: 0
@@ -27,8 +27,8 @@ moveWarmUp:0.1s
 rotateSpeed: 7
 heightSpeed: 0.4
 resetAngle:25
-image_leg:  ROOT:units/shared/leg.png
-image_foot: ROOT:units/shared/foot_verysmall.png
+image_leg:  ROOT:units/rust/shared/leg.png
+image_foot: ROOT:units/rust/shared/foot_verysmall.png
 holdDisMin: 5
 holdDisMax: 15
 favourOppositeSideNeighbours: true

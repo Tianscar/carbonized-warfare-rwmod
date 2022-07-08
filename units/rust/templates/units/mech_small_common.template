@@ -19,8 +19,8 @@ moveWarmUp:0.1s
 rotateSpeed: 7
 heightSpeed: 0.65
 resetAngle:25
-image_leg:  ROOT:units/shared/leg_small.png
-image_foot: ROOT:units/shared/foot_small.png
+image_leg:  ROOT:units/rust/shared/leg_small.png
+image_foot: ROOT:units/rust/shared/foot_small.png
 dust_effect: false
 holdDisMin: 5
 holdDisMax: 20
