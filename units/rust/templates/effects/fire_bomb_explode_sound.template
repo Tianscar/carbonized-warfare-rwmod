@@ -2,4 +2,4 @@
 priority: critical
 image:SHARED:blank.png
 life: 0
-alsoPlaySound:ROOT:sounds/fire_bomb_explode.ogg:1
+alsoPlaySound:ROOT:sounds/fire_bomb_explode.ogg:0.8
