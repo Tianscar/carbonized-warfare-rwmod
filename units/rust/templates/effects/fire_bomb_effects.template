@@ -1,34 +1,3 @@
-[effect_attachedFlame]
-priority:veryhigh
-frameIndex: 3
-stripIndex: projectiles
-life: 120
-fadeOut: true
-attachedToUnit: true
-color: #FFFFFF
-fadeInTime:9
-scaleFrom: 0.6
-scaleTo: 0.87
-alpha: 1.5
-drawUnderUnits:false
-liveAfterAttachedDies: false
-alwayStartDirAtZero: true
-dirOffset: 0
-[effect_attachedLight]
-priority:veryhigh
-image: SHARED:light_50.png
-life: 80
-fadeOut: true
-attachedToUnit: true
-color: #fdc14d
-fadeInTime:4
-scaleFrom: 0.3
-scaleTo: 0.3
-alpha: 0.5
-drawUnderUnits:false
-liveAfterAttachedDies: false
-alwayStartDirAtZero: true
-dirOffset: 0
 [effect_hitFlame]
 frameIndex: 3
 stripIndex: projectiles
@@ -38,7 +7,7 @@ attachedToUnit: false
 color: #FFFFFF
 scaleFrom: 0.67
 scaleTo: 0.9
-alpha: 0.5
+alpha: 1
 drawUnderUnits:false
 liveAfterAttachedDies: false
 physics: true
