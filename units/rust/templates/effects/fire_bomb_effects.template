@@ -2,6 +2,7 @@
 frameIndex: 2
 stripIndex: fire
 life: 40
+fadeInTime: 100
 fadeOut: true
 attachedToUnit: false
 color: #FFFFFF
