@@ -2,12 +2,12 @@
 frameIndex: 2
 stripIndex: fire
 life: 40
-fadeInTime: 100
+fadeInTime: 20
 fadeOut: true
 attachedToUnit: false
 color: #FFFFFF
-scaleFrom: 0.67
-scaleTo: 0.9
+scaleFrom: 1.0
+scaleTo: 1.2
 alpha: 1
 drawUnderUnits:false
 liveAfterAttachedDies: false
