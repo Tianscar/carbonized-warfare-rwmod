@@ -1,1 +1,62 @@
- 
+[effect_attachedFlame]
+priority:veryhigh
+frameIndex: 3
+stripIndex: projectiles
+life: 120
+fadeOut: true
+attachedToUnit: true
+color: #FFFFFF
+fadeInTime:9
+scaleFrom: 0.6
+scaleTo: 0.87
+alpha: 1.5
+drawUnderUnits:false
+liveAfterAttachedDies: false
+dirOffset: 90
+[effect_attachedLight]
+priority:veryhigh
+image: SHARED:light_50.png
+life: 80
+fadeOut: true
+attachedToUnit: true
+color: #fdc14d
+fadeInTime:4
+scaleFrom: 0.3
+scaleTo: 0.3
+alpha: 0.5
+drawUnderUnits:false
+liveAfterAttachedDies: false
+dirOffset: 90
+[effect_hitFlame]
+frameIndex: 3
+stripIndex: projectiles
+life: 40
+fadeOut: true
+attachedToUnit: false
+color: #FFFFFF
+scaleFrom: 0.67
+scaleTo: 0.9
+alpha: 0.5
+drawUnderUnits:false
+liveAfterAttachedDies: false
+physics: true
+ySpeedRelative:0.4
+hSpeed: 0.3
+dirOffset: 90
+[effect_smoke]
+frameIndex: 0
+stripIndex: smoke_black
+spawnChance: 0.3
+life: 90
+fadeOut: true
+attachedToUnit: false
+color: #FFFFFF
+fadeInTime:15
+scaleFrom: 0.2
+scaleTo: 0.4
+alpha: 0.8
+drawUnderUnits:false
+liveAfterAttachedDies: false
+hSpeed:0.2
+dirOffsetRandom:180
+atmospheric: true
