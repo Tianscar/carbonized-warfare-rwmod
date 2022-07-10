@@ -12,7 +12,8 @@ scaleTo: 0.87
 alpha: 1.5
 drawUnderUnits:false
 liveAfterAttachedDies: false
-dirOffset: 90
+dirOffset: -90
+atmospheric: true
 [effect_attachedLight]
 priority:veryhigh
 image: SHARED:light_50.png
@@ -26,7 +27,8 @@ scaleTo: 0.3
 alpha: 0.5
 drawUnderUnits:false
 liveAfterAttachedDies: false
-dirOffset: 90
+dirOffset: -90
+atmospheric: true
 [effect_hitFlame]
 frameIndex: 3
 stripIndex: projectiles
@@ -42,7 +44,8 @@ liveAfterAttachedDies: false
 physics: true
 ySpeedRelative:0.4
 hSpeed: 0.3
-dirOffset: 90
+dirOffset: -90
+atmospheric: true
 [effect_smoke]
 frameIndex: 0
 stripIndex: smoke_black
