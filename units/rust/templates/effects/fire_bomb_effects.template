@@ -15,20 +15,3 @@ ySpeedRelative:0.4
 hSpeed: 0.3
 alwayStartDirAtZero: true
 dirOffset: 0
-[effect_smoke]
-frameIndex: 0
-stripIndex: smoke_black
-spawnChance: 0.3
-life: 90
-fadeOut: true
-attachedToUnit: false
-color: #FFFFFF
-fadeInTime:15
-scaleFrom: 0.2
-scaleTo: 0.4
-alpha: 0.8
-drawUnderUnits:false
-liveAfterAttachedDies: false
-hSpeed:0.2
-dirOffsetRandom:180
-atmospheric: true
