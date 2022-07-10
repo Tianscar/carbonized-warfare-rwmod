@@ -1,6 +1,6 @@
 [effect_hitFlame]
-frameIndex: 3
-stripIndex: projectiles
+frameIndex: 2
+stripIndex: fire
 life: 40
 fadeOut: true
 attachedToUnit: false
