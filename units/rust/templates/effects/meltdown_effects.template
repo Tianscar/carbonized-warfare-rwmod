@@ -1,0 +1,9 @@
+[effect_meltdownBeam]
+priority: veryhigh
+life: 10
+fadeOut: true
+drawUnderUnits: false
+attachedToUnit: false
+yOffsetRelative: 90
+scaleFrom: 1.1
+scaleTo: 0.9
