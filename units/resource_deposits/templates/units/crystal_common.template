@@ -9,7 +9,7 @@ footprint: 0,0,0,1
 constructionFootprint: 0,0,0,1
 buildingToFootprintOffsetY: 20
 numBitsOnDeath: 0
-effectOnDeath: CUSTOM:crystalExplodeSound, CUSTOM:crystalExplodeBit*8
+effectOnDeath: CUSTOM:crystalExplodeBit*8
 explodeOnDeath: false
 soundOnDeath: ROOT:units/resource_deposits/sounds/crystal_explode.ogg
 hideScorchMark: true
