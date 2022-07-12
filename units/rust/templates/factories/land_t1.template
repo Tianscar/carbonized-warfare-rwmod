@@ -1,6 +1,6 @@
 [canBuild_setRally]
 name: setRally
 pos:  0.1
-[canBuild_1]
+[canBuild_t1]
 name: builder, scout, tank, hovertank, lightPlasmaTank, tankDestroyer, artillery, flameTank
 pos:  1
