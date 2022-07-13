@@ -1,0 +1,32 @@
+[core]
+#switchPriceWithStreamingCost:true
+#isBuilder:true
+strictLevel=0
+[global_resource_能源]
+displayName: 能源
+displayColor: #00c8ff
+hidden: false
+[global_resource_paratrooperCD]
+displayName: 冷却时间
+displayColor: #000000
+hidden: true
+[hiddenAction_addshield]
+autoTrigger:if self.resource.addshield > 0 and not self.tags(includes='haveshield')
+setUnitStats: maxShield=500,shield=500
+setResourcesWithLogic: addshield=0
+temporarilyAddTags:addshield
+[hiddenAction_addshield2]
+autoTrigger:if self.resource.shield == 0 and self.tags(includes='addshield')
+setUnitStats:maxShield=0,shield=0
+temporarilyRemoveTags:addshield
+[resource_addshield]
+displayName: addshield
+hidden: true
+[resource_eup]
+displayName: eup
+hidden: true
+[resource_持续时间]
+displayName: 持续时间
+hidden: true
+[core]
+shieldRegen: 0

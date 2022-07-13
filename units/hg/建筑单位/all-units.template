@@ -1,0 +1,95 @@
+[core]
+#switchPriceWithStreamingCost:true
+#isBuilder:true
+strictLevel=0
+copyFrom: ROOT:/effect/状态显示.template
+armourMinDamageToKeep:0
+[global_resource_能源]
+displayName: 能源
+displayColor: #00c8ff
+hidden: false
+[global_resource_paratrooperCD]
+displayName: 冷却时间
+displayColor: #000000
+hidden: true
+[hiddenAction_addshield]
+autoTrigger:if self.resource.addshield > 0 and not self.tags(includes='haveshield')
+setUnitStats:maxShield=500,shield=500
+setResourcesWithLogic: addshield=0
+temporarilyAddTags:addshield
+[hiddenAction_addshield2]
+autoTrigger:if self.resource.shield == 0 and self.tags(includes='addshield') and not self.tags(includes='haveshield')
+setUnitStats:maxShield=0,shield=0
+temporarilyRemoveTags:addshield
+[resource_addshield]
+displayName: addshield
+hidden: true
+[hiddenAction_eup]
+autoTrigger:if self.resource.eup > 0 and not self.tags(includes='noteup')
+setUnitStats:shootDelayMultiplier=0.75,shootDamageMultiplier=1.5
+setResourcesWithLogic: eup=0,持续时间=120
+temporarilyAddTags:eup
+[hiddenAction_eup2]
+autoTrigger:if self.resource.持续时间 > 0 and self.tags(includes='eup')
+setUnitStats:shield+=5,hp+=5
+addResources: 持续时间=-1
+[hiddenAction_eup3]
+autoTrigger:if self.resource.持续时间 == 0 and self.tags(includes='eup')
+setUnitStats:shootDelayMultiplier=1,shootDamageMultiplier=1
+temporarilyRemoveTags:eup
+[resource_eup]
+displayName: eup
+hidden: true
+[resource_持续时间]
+displayName: 持续时间
+hidden: true
+[core]
+shieldRegen: 0
+defineUnitMemory: float price
+[hiddenAction_uuf]
+autoTrigger:true
+setUnitMemory:price = self.priceCredits *0.75
+[action_re]
+pos:50000
+text:回收
+buildSpeed:4s
+description:-回收%{self.readUnitMemory('price',type='float')}$
+addResourcesWithLogic: credits=self.readUnitMemory('price',type='float') 
+whenBuilding_playAnimation:hs
+allowMultipleInQueue:false
+deleteSelf:true
+highPriorityQueue: true
+[effect_tp1]
+priority: critical
+image: ROOT:贴图/传送.png
+delayedStartTimer:1.8s
+life: 210
+scaleFrom: 0.1
+scaleTo: 5
+attachedToUnit: false
+drawUnderUnits: false
+dirOffset: 0
+alpha:5
+createWhenOffscreen:true
+[effect_tp2]
+image: ROOT:贴图/shockwave.png
+life: 120
+priority: critical
+scaleFrom: 5
+scaleTo: 0.1
+drawUnderUnits:false
+color:#6be1ff
+alpha:10
+createWhenOffscreen:true
+[animation_hs]
+effect_0s:{x:0,y:0,name:CUSTOM|tp2}
+effect_1.8s:{x:0,y:0,name:CUSTOM|tp1}
+effect_4.1s:{x:0,y:0,name:NONE}
+[hiddenAction_tm]
+autoTrigger:if self.numberOfUnitsInTeam(withTag="tm",greaterThan=0,incompleteBuildings=false,withinRange=300)
+setUnitStats:armour=999999
+temporarilyAddTags:htm
+[hiddenAction_tm2]
+autoTrigger:if not self.numberOfUnitsInTeam(withTag="tm",greaterThan=0,incompleteBuildings=false,withinRange=300)
+setUnitStats:armour=0
+temporarilyRemoveTags:htm
