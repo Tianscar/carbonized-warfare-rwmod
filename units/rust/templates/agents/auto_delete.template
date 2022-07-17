@@ -1,0 +1,3 @@
+[hiddenAction_deleteSelf]
+autoTrigger: if self.timeAlive(laterThanSeconds=0.2)
+deleteSelf:true
