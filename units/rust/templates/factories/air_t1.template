@@ -2,5 +2,5 @@
 name: setRally
 pos:  0.1
 [canBuild_t1]
-name: builderHelicopter, lightGunship, c_interceptor, helicopter
+name: builderHelicopter, lightGunship, interceptor, helicopter
 pos:  1

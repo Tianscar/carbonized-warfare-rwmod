@@ -2,7 +2,7 @@
 name: beamInterceptor, scytheJet, flyingFishHelicopter, flamewingBomber, heavyMissileAirship, nighthawkBomber, heavyBeamInterceptor, fighter
 pos:  3
 [canBuild_t3_experimental]
-name: fireBeeHelicopter, hellBeeGunShip
+name: fireBeeHelicopter, frostBeeInterceptor, hellBeeGunShip
 pos:  3.1
 isLocked: if not self.hasUnitInTeam(withTag='techExperimental')
 isLockedMessage: Needs experimental tech

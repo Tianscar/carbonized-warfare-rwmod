@@ -2,7 +2,7 @@
 name: setRally
 pos:  0.1
 [canBuild_experimental]
-name: experimentalTank, titanTank, experimentalHoverTank, mobileCommandII, rangerMissileAirship, thunderbirdJet, molaMolaDropship, mantaRayBomber, combatSpider
+name: experimentalTank, titanTank, experimentalHoverTank, knightMissileAirship, thunderbirdJet, molaMolaDropship, mantaRayBomber, combatSpider
 pos:  1
 isLocked: if not self.hasUnitInTeam(withTag='techExperimental')
 isLockedMessage: Needs experimental tech
