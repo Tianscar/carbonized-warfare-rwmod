@@ -1,5 +1,5 @@
 [canBuild_t3]
-name: beamInterceptor, scytheJet, flyingFishHelicopter, flamewingBomber, heavyMissileAirship, nighthawkBomber, heavyBeamInterceptor, fighter
+name: beamInterceptor, scytheJet, flyingFishHelicopter, heavyBeamInterceptor, flamewingBomber, heavyMissileAirship, nighthawkBomber, heavyAttacker
 pos:  3
 [canBuild_t3_experimental]
 name: fireBeeHelicopter, frostBeeInterceptor, hellBeeGunShip
