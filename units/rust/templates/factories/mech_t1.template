@@ -2,5 +2,5 @@
 name: setRally
 pos:  0.1
 [canBuild_t1]
-name: mechBuilder, mechGun, mechAssault, mechMissile, mechLightFlame, mechLightMinigun, mechArtillery, mechBunker
+name: mechBuilder, mechBasic, mechAssault, mechMissile, mechLightFlame, mechLightMinigun, mechArtillery, mechBunker
 pos:  1
