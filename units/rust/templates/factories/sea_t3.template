@@ -1,5 +1,5 @@
 [canBuild_t3]
-name: nautilusSubmarine, calamarySubmarine, heavyMissileShip, standardBattleship, lightCarrier
+name: nautilusSubmarine, calamarySubmarine, heavyMissileShip, standardBattleship, lightCarrier, c_heavyBattleship
 pos:  3
 isLocked: if not self.hasUnitInTeam(withTag='techExperimental')
 isLockedMessage: Needs experimental tech
