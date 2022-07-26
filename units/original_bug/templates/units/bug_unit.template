@@ -1,0 +1,4 @@
+[core]
+isBio: true
+isBug: true
+soundOnDeath: bug_die:2
