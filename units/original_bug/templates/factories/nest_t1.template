@@ -1,0 +1,6 @@
+[canBuild_setRally]
+name: setRally
+pos:  0.1
+[canBuild_t1]
+name: bugSpore, bugMelee, bugRanged, bugFly, bugPickup, bugBee, bugWasp
+pos:  1

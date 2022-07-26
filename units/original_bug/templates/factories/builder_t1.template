@@ -1,0 +1,3 @@
+[canBuild_t1]
+name: bugExtractor, bugNest, bugGenerator, bugTurret
+pos:  1
