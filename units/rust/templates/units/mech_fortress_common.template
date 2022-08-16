@@ -34,6 +34,7 @@ heightSpeed: 0.7
 resetAngle:20
 image_leg:  ROOT:units/rust/shared/leg.png
 image_foot: ROOT:units/rust/shared/foot_verysmall.png
+image_foot_shadow: SHADOW:ROOT:units/rust/shared/foot_verysmall.png
 holdDisMin: 5
 holdDisMax: 19
 favourOppositeSideNeighbours: true
