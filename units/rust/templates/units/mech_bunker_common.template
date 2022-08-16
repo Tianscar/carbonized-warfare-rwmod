@@ -27,10 +27,12 @@ x: -22
 y: 15
 attach_x: -5
 attach_y: 10
-moveSpeed: 1.9
+#moveSpeed: 1.9 #original
+moveSpeed: 2.9
 moveWarmUp:0.1s
 rotateSpeed: 7
-heightSpeed: 0.3
+#heightSpeed: 0.3 #original
+heightSpeed: 0.7
 resetAngle:25
 image_leg:  ROOT:units/rust/shared/leg.png
 image_foot: ROOT:units/rust/shared/foot_verysmall.png
