@@ -1,5 +1,5 @@
 [mod]
-title: Carbonized Warfare v1.3.7-NEO
+title: Carbonized Warfare v1.3.7p1-NEO
 description: Rusted Warfare v1.15p10 Add-On\n\n -Producer: Tianscar, RW_HGJS, 45, Foerview, H39ClassBB\n -GitHub repository: https://github.com/AnsdoShip/carbonized-warfare-rwmod\n\n -Focused on multi-faction battle.\n\n -作者: 碳酸天剑、RW_HGJS、45、风景、H39ClassBB\n -GitHub仓库: https://github.com/AnsdoShip/carbonized-warfare-rwmod\n\n -专注于阵营战。
 tags: units, starting-units, expansion, multi-faction
 thumbnail: logo.png

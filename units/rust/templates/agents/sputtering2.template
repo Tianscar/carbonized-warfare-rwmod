@@ -1,0 +1,51 @@
+[attack]
+canAttack: false
+canAttackFlyingUnits: false
+canAttackLandUnits:   false
+canAttackUnderwaterUnits: false
+turretSize: 0
+turretTurnSpeed: 2000
+maxAttackRange: 100
+shootDelay: 1s
+turretMultiTargeting: true
+[turret_1]
+x: 0
+y: 0
+idleDir: -45
+limitingAngle: 22.5
+limitingMinRange: 10
+[turret_2]
+x: 0
+y: 0
+copyFrom:1
+idleDir: 0
+[turret_3]
+x: 0
+y: 0
+copyFrom:1
+idleDir: 45
+[turret_4]
+x: 0
+y: 0
+copyFrom:1
+idleDir: 90
+[turret_5]
+x: 0
+y: 0
+copyFrom:1
+idleDir: 135
+[turret_6]
+x: 0
+y: 0
+copyFrom:1
+idleDir: 180
+[turret_7]
+x: 0
+y: 0
+copyFrom:1
+idleDir: 225
+[turret_8]
+x: 0
+y: 0
+copyFrom:1
+idleDir: 270
