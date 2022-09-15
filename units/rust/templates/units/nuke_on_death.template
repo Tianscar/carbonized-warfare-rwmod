@@ -1,0 +1,5 @@
+[core]
+nukeOnDeath: true
+nukeOnDeathRange: 200
+nukeOnDeathDamage: 4400
+nukeOnDeathDisableWhenNoNuke: true
