@@ -1,0 +1,6 @@
+[canBuild_reclaim]
+name: reclaim
+pos:  -1
+[canBuild_t1]
+name: extractor, turret, antiAirTurret, mixedFactory, laserDefence, repairBay, fabricator, researchCenter, nukeLauncher, antiNukeLauncher
+pos:  1

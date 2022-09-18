@@ -1,0 +1,6 @@
+[canBuild_setRally]
+name: setRally
+pos:  0.1
+[canBuild_t1]
+name: builderMechank, amphibiousBuilder, originalTank, originalScout, mechank, originalArtillery, lightPlasmaMechank, megaTank, hovercraft
+pos:  1
