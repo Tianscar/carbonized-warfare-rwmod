@@ -1,5 +1,5 @@
 [canBuild_t3]
-name: lightningMechank, generalTank, plasmaHoverTank
+name: capitalTank, lightningMechank, plasmaHoverTank
 pos:  3
 isLocked: if not self.hasUnitInTeam(withTag='techExperimental')
 isLockedMessage: Needs experimental tech
