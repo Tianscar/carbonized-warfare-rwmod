@@ -8,4 +8,4 @@ A mod for Rusted Warfare. Focused on multi-faction battle.
 Karstian Lee, Foerview, RW_HGJS
 
 ## License
-[CC-BY-NC-SA-4.0](https://github.com/AnsdoShip/carbonized-warfare-rwmod/blob/main/LICENSE) (c) CW4-DevTeam
+[CC-BY-NC-SA-4.0](https://github.com/AnsdoShip/carbonized-warfare-rwmod/blob/main/LICENSE) (c) Carbonized Warfare Development Team
